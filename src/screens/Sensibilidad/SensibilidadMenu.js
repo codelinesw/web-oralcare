@@ -62,7 +62,7 @@ export default class SensibilidadMenu extends React.Component {
               </div>
             </div>
           </div>
-          <Footer screenNext="sensibilidadrealwhite" screenPrev="sensibilidad" history={this.props.history} top="147px" />
+          <Footer screenNext="sensibilidadrealwhite" screenPrev="imagecarousel" history={this.props.history} top="147px" />
         </div>
       </div>
     );

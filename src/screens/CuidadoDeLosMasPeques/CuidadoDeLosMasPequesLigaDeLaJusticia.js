@@ -42,7 +42,7 @@ export default class CuidadoDeLosMasPequesLigaDeLaJusticia extends React.Compone
               </div>
             </div>
           </div>
-          <Footer screenNext="cuidadodelosmaspequescepillos" screenPrev="cuidadodelosmaspequesmenu" currentScreen="Cuidadochicos" showsubmenu={true} history={this.props.history} top="105px" classForStyle='top_x30' />
+          <Footer screenNext="cuidadodelosmaspequesmyfirst" screenPrev="cuidadodelosmaspequesmenu" currentScreen="Cuidadochicos" showsubmenu={true} history={this.props.history} top="105px" classForStyle='top_x30' />
         </div>
       </div>
     );

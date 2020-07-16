@@ -19,7 +19,7 @@ export default class CuidadoFamiliarTripleAccion extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <Header showBotonMenu={true} showBotonMenuS={true} />
         <div className="row m-auto d-block" style={{ position: 'relative', top: '0px', width: '90%' }}>
           <div className="card m-auto bg-transparent border-0 container-box">
@@ -44,7 +44,7 @@ export default class CuidadoFamiliarTripleAccion extends React.Component {
             </div>
           </div>
         </div>
-        <Footer screenNext="cuidadofamiliarsoftmint" screenPrev="cuidadofamiliarmenu" currentScreen="CuidadoFamiliar" showsubmenu={true} history={this.props.history} top="105px" classForStyle='top_x30' />
+        <Footer screenNext="cuidadofamiliartripleaccion360" screenPrev="cuidadofamiliarmenu" currentScreen="CuidadoFamiliar" showsubmenu={true} history={this.props.history} top="105px" classForStyle='top_x30' />
       </div>
     );
   }

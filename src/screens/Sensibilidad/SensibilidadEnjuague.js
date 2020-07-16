@@ -28,7 +28,7 @@ export default class SensibilidadEnjuague extends React.Component {
             </div>
             <div className="card-body d-flex justify-content-center w-100">
               <div className="column mt-5">
-                <img src={img} alt="error" className="image-left productEnjuague" style={{ position: 'relative', right: '260px', top: '-180px' }} />
+                <img src={img} alt="error" style={{ position: 'relative', width:'350px',right: '260px', top: '-180px' }} />
               </div>
               <div className="column pt-4 mt-0" style={{position:'relative',right:'100px',top:'70px'}}>
                 <p className="small text-muted text-normal" style={{ position: 'relative' }}>Además de brindar una salud bucal completa,</p>

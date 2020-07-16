@@ -2,7 +2,7 @@ import React from 'react';
 import background_ from '../../images/Productos/Multibeneficios/Menu/Fondo.png';
 import titulo from '../../images/Productos/Cuidadodelosmaspeques/Enjuague/Titulo.png';
 import Header from '../../components/Header';
-import video from '../../images/MundodeNinios/video/video.mp4';
+import video from '../../images/MejoraTuSonrisa/video/video.mp4';
 
 
 export default class MundodeNinios extends React.Component {

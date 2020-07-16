@@ -24,7 +24,7 @@ export default class CambiaTuCepilladeDientes extends React.Component {
   render() {
     return (
       <div className="container-fluid">
-        <Header showBotonMenu={true} showBotonMenuS={true} />
+        <Header showBotonMenu={true} showBotonMenuS={false} />
         <div className="row m-auto d-block" style={{ position: 'relative', top: '0px', width: '90%' }}>
           <div className="card m-auto bg-transparent border-0 ">
             <div className="card-header bg-transparent border-0 d-flex justify-content-center">

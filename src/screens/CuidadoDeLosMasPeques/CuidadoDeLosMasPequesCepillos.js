@@ -16,7 +16,6 @@ export default class CuidadoDeLosMasPequesCepillos extends React.Component {
     document.body.style.backgroundImage = `url(${background_})`;
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundColor = "white";
-    document.body.style.backgroundPosition = "0px -110px";
   }
 
 

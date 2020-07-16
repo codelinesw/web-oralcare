@@ -24,13 +24,13 @@ export default class MaxWhite extends React.Component {
         <div className="row m-auto d-block" style={{ position: 'relative', top: '0px', width: '90%' }}>
           <div className="card m-auto bg-transparent border-0 ">
             <div className="card-header bg-transparent border-0 d-flex justify-content-center">
-              <img src={titulo} alt="error" className="title_multibene" style={{ position: 'relative', left: '30px' }} />
+              <img src={titulo} alt="error" style={{ position: 'relative', left: '30px', width:'700px' }} />
             </div>
             <div className="card-body d-flex justify-content-center w-100">
               <div className="column pr-4">
-                <img src={img} alt="error" style={{ position: 'relative', top: '50px', left: '-50px' }} />
+                <img src={img} alt="error" style={{ position: 'relative', top: '0px', left: '-50px' }} />
               </div>
-              <div className="column pl-5 pt-4" style={{ position: 'relative', right: '0px', top:'40px' }}>
+              <div className="column pl-5" style={{ position: 'relative', right: '0px', top:'0px' }}>
                 <p className="small text-muted text-normal">Disfruta el refrescante sabor que la Crema Dental Max White Crystal</p>
                 <p className="small text-muted text-normal">Mint de Colgate tiene para ti y sorpréndete con sus increíbles láminas</p>
                 <p className="small text-muted text-normal">de blancura que se disuelven en tu boca consiguiendo una sonrisa más</p>

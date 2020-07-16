@@ -31,20 +31,8 @@ export default class AlientoSaludable extends React.Component {
               <div className="column mt-5 mr-5">
                 <img src={img} alt="error" style={{ position: 'relative', left: '-50px' }} />
               </div>
-              <div className="column pt-4 mt-0" style={{position:'relative',right:'0px', top:'50px'}}>
-                <p className="text-muted text-normal" style={{ position: 'relative', right: '35px', top: '10px',marginTop:'110px' }}>Obtén una protección inigualable contra el mal aliento gracias a su tecnología Neutro-Odor, la cual</p>
-                <p className="text-muted text-normal" style={{ position: 'relative', right: '35px', top: '3px' }}>hace parte de su sabor, que ayuda a neutralizar el mal aliento causado por bacterias para brindarte</p>
-                <p className="text-muted text-normal" style={{ position: 'relative', right: '35px', top: '-2px' }}>una salud bucal completa.</p>
-                <div className="mt-2">
-                  <p className="small mt-5 text-muted texto-inferior" style={{ position: 'relative', top: '0px', right: '35px' }}>Descubre en cada aplicación cómo su poderosa fórmula actuará eliminando los gérmenes,</p>
-                  <p className="small text-muted texto-inferior" style={{ position: 'relative', top: '-10px', right: '35px' }}>bacterias o restos de alimento que se adhieren en tu boca y en ocasiones pueden causarte</p>
-                  <p className="small text-muted texto-inferior" style={{ position: 'relative', top: '-30px', right: '35px' }}>problemas como la aparición de caries, acumulación de placa, sarro o gingivitis.</p>
-                </div>
-                <div className="mt-2">
-                  <p className="small mt-5 text-muted texto-inferior" style={{ position: 'relative', top: '0px', right: '35px' }}>Encuentra su presentación en paquete con 3 unidades de 75 mililitros cada una, ideal para tener</p>
-                  <p className="small text-muted texto-inferior" style={{ position: 'relative', top: '-10px', right: '35px' }}>repuestos en tu tocador o llevarlas al trabajo, escuela, universidad o gimnasio, para cumplir con los</p>
-                  <p className="small text-muted texto-inferior" style={{ position: 'relative', top: '-30px', right: '35px' }}>tres cepillados al día necesarios para mantener la salud de tu boca.</p>
-                </div>                
+              <div className="column pt-4 mt-0" style={{ position: 'relative', right: '0px', top: '0px' }}>
+                <p className="small text-muted text-normal top-30" style={{ position: 'relative', lineHeight: 1.5 }}>Obtén una protección inigualable contra el mal aliento gracias a su tecnología Neutro-Odor, la cual hace parte de su sabor, que ayuda a neutralizar el mal aliento causado por bacterias para brindarte una salud bucal completa.<br/><br/>Descubre en cada aplicación cómo su poderosa fórmula actuará eliminando los gérmenes, bacterias o restos de alimento que se adhieren en tu boca y en ocasiones pueden causarte problemas como la aparición de caries, acumulación de placa, sarro o gingivitis.<br/><br/>Encuentra su presentación en paquete con 3 unidades de 75 mililitros cada una, ideal para tener repuestos en tu tocador o llevarlas al trabajo, escuela, universidad o gimnasio, para cumplir con los tres cepillados al día necesarios para mantener la salud de tu boca.</p>
               </div>
             </div>
           </div>

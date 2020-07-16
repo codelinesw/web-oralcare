@@ -35,7 +35,7 @@ export default class CuidadoDeLosMasPequesMyFirst extends React.Component {
               </div>
             </div>
           </div>
-          <Footer screenNext="cuidadodelosmaspequescepillos" screenPrev="cuidadodelosmaspequesmenu" currentScreen="Cuidadochicos" showsubmenu={true} history={this.props.history} top="105px" classForStyle='top_x30' />
+          <Footer screenNext="cuidadodelosmaspequesmykids" screenPrev="cuidadodelosmaspequesmenu" currentScreen="Cuidadochicos" showsubmenu={true} history={this.props.history} top="105px" classForStyle='top_x30' />
         </div>
       </div>
     );

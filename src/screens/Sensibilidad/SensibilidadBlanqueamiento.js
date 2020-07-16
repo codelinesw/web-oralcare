@@ -11,9 +11,7 @@ export default class SensibilidadBlanqueamiento extends React.Component {
 
   componentDidMount() {
     document.body.style.backgroundImage = `url(${background_})`;
-    document.body.style.backgroundSize = "cover";
     document.body.style.backgroundColor = "white";
-    document.body.style.backgroundPosition = "0px 20px";
 
   }
 
@@ -33,7 +31,7 @@ export default class SensibilidadBlanqueamiento extends React.Component {
               <div className="column pr-4">
                 <img src={img} alt="error" style={{ position: 'relative', width: '970px', top:'175px', right:'50px' }} />
               </div>
-              <div className="column pt-4 mt-0" style={{position:'relative', top:'70px'}}>
+              <div className="column pt-4 mt-0" style={{position:'relative', top:'150px'}}>
                 <p className="small text-muted text-normal top-30" style={{ position: 'relative', left: '0px',marginTop:'-80px' }}>Su fórmula ayuda a aliviar la sensibilidad del diente y</p>
                 <p className="small text-muted text-normal top-30" style={{ position: 'relative', left: '0px' }}>crea un escudo protector, ayudando a proporcionar</p>
                 <p className="small text-muted text-normal top-30" style={{ position: 'relative', left: '0px' }}>rápido alivio contra la sensibilidad dental y un sistema</p>

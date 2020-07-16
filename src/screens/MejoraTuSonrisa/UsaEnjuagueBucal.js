@@ -36,7 +36,7 @@ export default class UsaEnjuagueBucal extends React.Component {
                <div style={{display:'flex'}}>
                     <img src={imgThree} alt="error" style={{ position: 'relative', top: '70px', width:'200px',right:'80px',height:'350px' }} />
                     <img src={img} alt="error" style={{ position: 'relative', top: '150px', width:'200px',right:'80px',height:'350px' }} />
-                    <img src={imgTwo} alt="error" style={{ position: 'relative', top: '70px', width:'350px',right:'80px',height:'350px' }} />
+                    <img src={imgTwo} alt="error" style={{ position: 'relative', top: '70px', width:'350px',right:'150px',height:'350px' }} />
                </div>
               </div>
               <div className="column pl-5 pt-4">
